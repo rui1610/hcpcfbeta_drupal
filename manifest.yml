@@ -1,0 +1,10 @@
+---
+applications:
+- name: ruisdrupal
+  memory: 256M
+  disk_quota: 256M
+  instances: 1
+  host: ruisdrupal
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
+  services:
+    - mypostgresql

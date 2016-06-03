@@ -1,0 +1,4 @@
+{
+  "PHP_EXTENSIONS": ["pdo", "gd", "mbstring","pdo_pgsql"],
+  "PHP_VERSION": "PHP_55_LATEST"
+}
